@@ -1,0 +1,138 @@
+body{
+    background-color: beige;
+    color:brown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:  16px;
+    font-weight:normal;
+    line-height:1.6em;
+    margin:0;
+
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.button{
+    background-color: brown;
+    color:beige;
+    width:50%;
+    margin-top:100px;
+    padding:10px;
+    border:3px beige solid;
+    border-radius: 5rem;
+}
+
+#main-header{
+    background-color:black;
+    color:beige;
+    text-align: center;
+}
+
+#navbar{
+    background-color:aliceblue ;
+    color:brown;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:brown;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding:100px 120px 100px 120px;
+}
+
+#showcase{
+    background-image: url('../images/absbrown.jpg');
+    background-image: center right;
+    min-height: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#main{
+    float:left;
+    width:65%;
+    padding:0px 30px ;
+    box-sizing:border-box;
+    background-color: brown;
+    color:beige
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: brown;
+    color:beige;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+
+.my-form{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    overflow:hidden;
+    border:2px brown solid;
+    background-color: antiquewhite;
+}
+
+.my-form.form-group{
+    padding: 15px;
+}
+
+.my-form label{
+    display:block;
+    margin: 0em 0em 0em 2em;
+}
+
+.my-form input{
+    margin: 0em 0em 0em 2em;
+}
+
+
+.radio label{
+    display:inline;
+}
+
+.check label{
+    display:inline;
+}
+
+.question{
+    margin:0em 0em 0em 2em;
+}
+
+
+#main-footer{
+    background-color: brown;
+    color:beige;
+    text-align: center;
+    padding:20px;
+    margin-top:500px;
+}
+
+@media(max-width:900px){
+    #main{
+        width:100%;
+        float:none;
+    }
+
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}

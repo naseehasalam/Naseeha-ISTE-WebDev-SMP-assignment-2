@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>REGISTRATION FORM</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to my Login page</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="main">
+            <p>Welcome to my register page, here you can register for anything and everything.Including life in general.Feel free to contact me in any case.</p>
+        </section>
+
+        <section id="sidebar">
+            <p>Contact me via any of the following channels:- <details> Phone: +91 8157086421<br>Email: naseehasalam097@gmail.com</details> </p>
+        </section>
+    </div>
+
+    <form class="my-form">
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="USERNAME">
+        </div>
+        <div class="form-group">
+            <label>EmailId</label>
+            <input type="email" name="EMAILID">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="PASSWD">
+        </div>
+        <div class="form-group">
+            <label>Date Of Birth</label>
+            <input type="date" name="DATE" id="send" onclick="result.value=send.value">
+            <input type="text" id="result">
+        </div>
+        <div class="form-group">
+            <label>Age</label>
+            <input type="number" id="AGE">
+        </div>
+        <section class="question">
+            <p>How do you classify yourself based on <stong>CODING</stong> experience?</p>
+        </section>
+        <div class="radio">
+            <input type="radio" name="CODING" value="1.Basic">
+            <label>1.Basic</label>
+            <input type="radio" name="CODING" value="2.Intermediate">
+            <label>2.Intermediate</label>
+            <input type="radio" name="CODING" value="3.Expert">
+            <label>3.Expert</label>
+        </div>
+
+        <section class="question">
+            <p>What all <strong>languages</strong> are you familiar with?</p>
+        </section>
+        <div class="check">
+            <input type="checkbox" name="LANGUAGE" value="PYTHON">
+            <label>PYTHON</label>
+            <br>
+            <input type="checkbox" name="LANGUAGE" value="CPP">
+            <label>CPP</label>
+            <br>
+            <input type="checkbox" name="LANGUAGE" value="JAVA">
+            <label>JAVA</label>
+            <br>
+            <input type="checkbox" name="LANGUAGE" value="RUBY">
+            <label>RUBY</label>
+            <br>
+            <input type="checkbox" name="LANGUAGE" value="HTML">
+            <label>HTML</label>
+            <br>
+            <input type="checkbox" name="LANGUAGE" value="OTHER">
+            <LABEL>Other?</LABEL>
+            <label>Enter if you know any other languages</label>
+            <input type="text" name="OTHERS">
+        </div>
+        <input class="button" type="submit" value="Submit" name="">
+    </form>
+
+    <footer id="main-footer">
+        <p>Copyright &copy;2017 REGISTER</p>
+    </footer>
+    
+</body>
+</html>
